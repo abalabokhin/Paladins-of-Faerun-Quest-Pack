@@ -6371,7 +6371,7 @@ COPY ~PoFQuestPack/TIS.EE~		~override~
 
   // *** Install pvrz-based tilesets without the danger of overwriting pvrz files from other mods or the game itself. ***
 
-COPY ~PoFQuestPack/PVRZ.EE~		~override~
+// COPY ~PoFQuestPack/PVRZ.EE~		~override~
   INCLUDE ~PoFQuestPack/lib/a7_pvrz_tis.tpa~
   // Installing all TIS files from the specified folder
   ACTION_BASH_FOR ~%MOD_FOLDER%/TIS.EE~ ~^.+\.tis$~ BEGIN
