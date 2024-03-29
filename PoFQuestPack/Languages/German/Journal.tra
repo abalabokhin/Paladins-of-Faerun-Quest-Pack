@@ -585,6 +585,220 @@ Ich habe die Wachen verärgert und musste sie töten.~ // @11
 
 Ein Koch in Siluvaned bat mich, den Wachen im Westen Essen zu bringen.~ // @8
 
+	
+//////////////////////    Paladins of Faerûn
+// Title
+
+@51200 = ~Paladine von Faerûn~
+
+// XG1134.BAF
+
+@51201 = ~Paladine von Faerûn
+
+Die Geschichte ist zu Ende. Gradak, der seine beiden Freunde Alvin und Grafalkon verraten hat, ist nun tot, ebenso wie der Held Grafalkon. Ein neuer Orden der Ritter von Faerûn wurde noch nicht gegründet. Und wie Alvin sagte, wird es vielleicht nie dazu kommen, denn es gibt keinen einzigen Menschen, Elfen oder sonst jemanden, der nicht nach der Macht strebt, die ganze Welt zu erobern.~ // @13
+
+// XGAMAG.d 
+
+@51202 = ~Paladine von Faerûn
+
+Aus einem Gespräch mit dem Gründer eines neuen Kults zum Schutz von Faerûn erfuhr ich, dass dies kein Zufall war, sondern ich absichtlich ausgewählt wurde. Meine Aufgabe ist es, dafür zu sorgen, dass alles reibungslos abläuft.~ // @12
+
+
+// XGARUNL.d 
+
+@51203 = ~Paladine von Faerûn
+
+Arundel erzählte mir, dass Alvin während des Angriffs gefangen genommen wurde, und zeigte mir den Ort, an dem er sich befindet.~ // @23
+
+// XGBLMAJ.d
+
+@51204 = ~Paladine von Faerûn
+
+Wie sich herausstellte, befindet sich Gradaks Freund Margul in seinem Versteck in Baldurs Tor, ich werde dort in einem Tempel im nördlichen Teil der Stadt einen geheimen Eingang finden. Ich muss seine Leiche mitnehmen.~ // @14
+
+// XGBRMOC.d
+
+@51205 = ~Paladine von Faerûn
+
+Ich habe herausgefunden, wo Gradak sich versteckt, aber zuerst muss ich in die Stadt zurückkehren und dem Herzog versprechen, dass ihn diese Gruppe nicht mehr belästigen wird.~ // @9
+
+// XGDRA1.d
+
+@51206 = ~Paladine von Faerûn
+
+Als ich den Kerker verließ, wartete der Drache, die letzte Wache, auf mich. Ich habe den Drachen getötet, und jetzt kann ich meine Suche nach Gradak fortsetzen.~ // @5
+
+@51207 = ~Paladine von Faerûn
+
+Als ich den Kerker verließ, wartete der Drache, der letzte Wächter, auf mich. Der Drache ließ mich kampflos gehen, und nun kann ich weiter nach Gradak suchen.~ // @8
+
+// XGELIJA.d
+
+@51208 = ~Paladine von Faerûn
+
+Ich bin bei den Verteidigern des Kultes von Faerûn angekommen. Der Elf Elijah, der Anführer der Verteidiger, wollte einen Kampf mit den Soldaten der Südländer beginnen. Ich half ihm, die Armee in die Schlacht zu führen, und meine Aufgabe war es, Marco, die rechte Hand des Anführers der Südländer, aufzuhalten. Und dann zu ihm zurückkehren.~ // @14
+
+// XGELM3.d
+
+@51209 = ~Paladine von Faerûn
+
+Wir besiegten alle Mitglieder des Rates der Magier im Hauptraum, wo wir auf Tasilla, den Erzmagier, trafen. Wir erfuhren, dass Gradak sein Bruder ist und dass dies alles geplant war. Er erzählte von der Armee der Südländer und 3 magischen Relikten. Nach seinem Tod erschien Grafalkon hier, er schickte mich und meine Gruppe, um eines dieser Relikte an der Schwertküste zu finden. Wir müssen es finden, bevor Gradak es tut.~ // @6
+
+// XGELM4.d
+
+@51210   = ~Paladine von Faerûn
+
+Der Krieg hat also begonnen... Sir Yarpen hat die erste Stadt eingenommen... Eiswindtal. Aber Elminster sagte mir, dass er hinter dem legendären Paladin her ist, den ich finden muss... Also geht meine Reise weiter in den Norden von Faerûn, um die Invasion aufzuhalten und den verlorenen Paladin zu finden!~ // @8
+
+// XGELVCP.d
+
+@51211 = ~Paladine von Faerûn
+
+Ich betrat die unterirdischen Gänge der Burg von Gradak. Der Führer sagte mir, dass er sich irgendwo in der Festung versteckt hält.~ // @2
+
+// XGELWI.d
+
+@51212 = ~Paladine von Faerûn
+
+Der Rat der Magier schickte einen Abgesandten zu Alvin, der ihn um Hilfe bat. Er erklärte mir, warum ich auserwählt wurde, das Ritual zu verteidigen, bei dem ein neuer Orden zur Verteidigung Faeruns gegründet werden sollte. Ich habe auch erfahren, dass sie über Irenicus und Imoen Bescheid wissen, der Rat schickt mir 20.000 für Gaelin, und damit ich Imoen zurückbringen kann, muss ich an diesen Ort gehen.~ // @21
+
+// XGELWI1.d
+
+@51213 = ~Paladine von Faerûn
+
+Auf dem Weg zur Burg Gradak wurde ich von dem Zauberer Alvin aufgehalten. Er sagte mir, dass Gradak über meine Ankunft Bescheid wüsste und alle Zugänge bewache, also schlug er vor, mich mit Hilfe von Magie in die Kerker zu bringen, die zur Festung von Gradak führen, und dann würde alles nur noch von mir abhängen. Ich muss herausfinden, was wirklich los ist.~ // @6
+
+// XGFALC1.d
+
+@51214 = ~Paladine von Faerûn
+
+Ich habe Gradaks Lager gefunden, von dem aus sie den Kult angegriffen haben. Ich sah Gradak mit Elminster sprechen, sie haben sich auf etwas geeinigt. Grafalkon versprach, herauszufinden, was vor sich geht, aber er glaubt nicht, dass Elminster gegen uns sein würde. Meine Aufgabe ist es, zur Burg von Gradak zu gelangen; Grafalkon hat ihre Lage auf der Karte eingezeichnet.~ // @6
+
+// XGFALC2.d
+
+@51215 = ~Paladine von Faerûn
+
+Wir besiegten alle Mitglieder des Rates der Magier im Hauptraum, wo wir auf den Erzmagier Tasilla trafen. Wir erfuhren, dass Gradak sein Bruder war und dass all dies im Voraus geplant war. Er erzählte von der Armee der Südländer und 3 magischen Relikten. Nach seinem Tod erschien Grafalkon hier, er schickte mich und meine Gruppe, um eines dieser Relikte an der Schwertküste zu suchen. Wir müssen sie finden, bevor Gradak es tut.~ // @6
+
+// XGgghc.d
+
+@51216 = ~Paladine von Faerûn
+
+Als wir uns dem Eingang zum Rat der Magier näherten, zu dem uns Alvin geschickt hatte, hielt uns der Wächter auf und sprach von einigen Änderungen der Befehle. Es ist notwendig, die Gruppe unter der Führung eines Nachkommens von Bhaal zu vernichten. Die Dinge beginnen irgendwie kompliziert zu werden, ich weiß nicht einmal, wer für uns und wer gegen uns ist. Es gibt nur einen Weg, das herauszufinden: Wir müssen den Gründer des Paladinkults von Faerûn finden.~ // @8
+
+// XGGOCH.d
+
+@51217 = ~Paladine von Faerûn
+
+Im Kerker traf ich den Wächter des Ganges. Er sagte, Gradak sei hier vorbeigekommen, aber um ihm zu folgen, müsse ich 6 Schlüsselsteine des Ganges sammeln. Ich werde 6 Wachen im Kerker treffen und von jedem von ihnen muss ich einen Schutzstein bekommen.~ // @6
+
+// XGKELRO.d
+
+@51218 = ~Paladine von Faerûn
+
+Kelrot, Alvins ehemaliger Lehrer und Freund, erwies sich als Diener von Gradak und seine Aufgabe war es, mich aufzuhalten. Dennoch gab er mir den Rat, in den Dunkelwald im Norden Faerûns zu gehen. Dort finde ich Antworten auf einige meiner Fragen.~ // @14
+
+// XGOLDM.d
+
+@51219 = ~Paladine von Faerûn
+
+Der alte Magier war wirklich merkwürdig, aber er hat seine Aufgabe erfüllt und den Ort gefunden, an dem sich der von Gradak entführte Quarill befindet.~ // @6
+
+// XGRANM.d
+
+@51220 = ~Paladine von Faerûn
+
+Der Waldläufer Rolard hat Gradak gesehen, aber er blieb nur eine Nacht hier und brach dann nördlich des Dorfes auf. Dort gibt es Lager von Orks. Späher aus dem Dorf sahen, dass unter ihnen Magier in roten Roben waren, denen wir schon einmal begegnet waren. Vielleicht führt er ein Ritual durch und will diese 3 Relikte kombinieren, wir sollten so schnell wie möglich dorthin gelangen. Rolard hat uns diesen Ort auf der Karte markiert.~ // @16
+
+// XGSCOUT.d
+
+@51221 = ~Paladine von Faerûn
+
+Tief im Kerker, der zu Gradaks Lager führte, fand ich eine Gruppe von Kriegern, die nach meiner Leiche suchten. Ich ließ ihren Anführer laufen, um Gradak zu sagen, dass ich ihm auf den Fersen war.~ // @6
+
+// XGSLAI1.d
+
+@51222   = ~Paladine von Faerûn
+
+Jetzt ist also der legendäre Paladin Slaine aus Faerûn meiner Gruppe beigetreten, wir müssen seinen Freund retten, wenn wir SIch habe gerade mit dem legendären Paladin Slaine gesprochen... Er sagte mir, er könne mir helfen... Aber zuerst muss er seinen Freund in New Brynnlaw finden... Wenn ich also bereit bin, muss ich mich auf den Weg machen und ihn irgendwo in der Stadt finden...ir Yarpen besiegen wollen...~ // @6
+
+@51223   = ~Paladine von Faerûn
+
+Slaine sagte mir, dass sein Freund von von Kriegern aus dem Süden gefangen genommen wurde und dass wir ihn retten müssen... also gab er mir eine Karte... Ich muss dorthin gehen und ihn finden...Ich habe gerade mit dem legendären Paladin Slaine gesprochen... Er sagte mir, er könne mir helfen... Aber zuerst muss er seinen Freund in New Brynnlaw finden... Wenn ich also bereit bin, muss ich mich auf den Weg machen und ihn irgendwo in der Stadt finden...~ // @8
+
+// XGSLAIE.d
+
+@51224   = ~Paladine von Faerûn
+
+Ich habe gerade mit dem legendären Paladin Slaine gesprochen... Er sagte mir, er könne mir helfen... Aber zuerst muss er seinen Freund in New Brynnlaw finden... Wenn ich also bereit bin, muss ich mich auf den Weg machen und ihn irgendwo in der Stadt finden...~ // @9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
 
 
 

@@ -13,9 +13,11 @@
 @12 = ~ Yes, of course. The entrance to the habitat of the Margul sect is located in the old temple in the northern part of the city. As proof of my gratitude for your help, I will send you reinforcements from my best people. Bring me his body! Good luck! ~
 @13 = ~ Thank you Grand Duke ~
 
-@14 = ~ Paladins of Féérune.
+/*
+@14 = ~ Paladins of Féérune
 
 As it turned out, a friend of Gradak Margul is in his shelter at the Gate of Baldur, I will find a secret entrance there in a temple in the northern part of the city. I have to bring his body. ~
+*/
 
 @15 = ~ Great friends, did you find this paladin? ~
 @16 = ~ We did not find him, but his friend Margul was there, and he told me where Hradak had disappeared. ~

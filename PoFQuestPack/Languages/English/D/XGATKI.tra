@@ -32,9 +32,12 @@ The daughter of the trading king Atkatla was kidnapped. Your task is to find her
 @19 = ~ She found herself embroiled in a political conflict in the Moonlight, giving her life for it. But thanks to her, this conflict could be resolved. You can be proud of her sir. ~
 @20 = ~ I hope that apart from this decision, nothing could be done. I have a reward for your efforts here. By the way, some old man left a map of his elven city here, he wanted you to go there. ~
 @21 = ~ I'm really sorry about what happened to your daughter. ~
+
+/*
 @22 = ~ Atkutla.
 
 I met a messenger, I am looking for one high-ranking person, I can find him in a shopping area. I need to check it out. ~
+*/
 
 /*
 @23 = ~ Abduction and politics.

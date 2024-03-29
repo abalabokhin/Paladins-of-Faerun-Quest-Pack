@@ -973,3 +973,209 @@ A cook in Siluvaneda asked me to deliver food to a guard in the west.~ // @8
 
 A cook in Siluvaneda asked me to deliver food to a guard in the west. ~
 */
+
+	
+//////////////////////    Paladins of Faerûn
+// Title
+
+@51200 = ~Les Paladins de Féérune~
+
+// XG1134.BAF (SetQuestDone(@13))
+
+@51201 = ~Les Paladins de Féérune
+
+Cette histoire se termine. Gradak, qui a trahi ses amis, est désormais de l'histoire ancienne, tout comme le héros Grafalcon. Le nouvel ordre de chevaliers qui devait protéger Féérune n'a pu être instauré. Et comme l'a souligné Elwin, il pourrait ne jamais voir le jour car il n'y a pas une seule personne en ce monde, qu'elle soit humaine, elfe ou de n'importe quelle race, qui ne souhaiterait pas s'approprier un si grand pouvoir pour ses ambitions personnelles, nous laissant tous à sa merci...~ // @13
+
+// XGAMAG.d (UNSOLVED_JOURNAL @12)
+
+@51202 = ~Les Paladins de Féérune
+
+From a conversation with the founder of a new cult to defend Faerûn, I learned that this was not an accident, and I was chosen on purpose. My task is for everything to go smoothly.~ // @12
+
+
+// XGARUNL.d (UNSOLVED_JOURNAL @23)
+
+@51203 = ~Les Paladins de Féérune
+
+Arundel told me that during the attack they captured Alvin, and indicated the place where he is.~ // @23
+
+// XGBLMAJ.d(UNSOLVED_JOURNAL @14)
+
+@51204 = ~Les Paladins de Féérune
+
+As it turned out, a friend of Gradak Margul is in his shelter at the Gate of Baldur, I will find a secret entrance there in a temple in the northern part of the city. I have to bring his body.~ // @14
+
+// XGBRMOC.d(UNSOLVED_JOURNAL @9)
+
+@51205 = ~Les Paladins de Féérune
+
+I found out where Gradak was hiding, but first I had to go back to the city and owe it to the duke that this group would no longer bother him.~ // @9
+
+// XGDRA1.d(UNSOLVED_JOURNAL @8, UNSOLVED_JOURNAL @5)
+
+@51206 = ~Les Paladins de Féérune
+
+When I left the dungeon, the dragon, the last guard, was waiting for me. I killed the dragon, and now I can continue to search for Gradak.~ // @5
+
+@51207 = ~Les Paladins de Féérune
+
+When I left the dungeon, the dragon, the last guard, was waiting for me here. The dragon let me go without a fight, and now I can continue to search for Gradak.~ // @8
+
+// XGELIJA.d(UNSOLVED_JOURNAL @14)
+
+@51208 = ~Les Paladins de Féérune
+
+I arrived at the defenders of the Faerûn cult. Elf Elijah the leader of the defenders wanted to start a battle with the soldiers of the southerners. I helped him lead the army into battle and my task was to stop Marco, the right hand of the leader of the southerners. And then get back to it.~ // @14
+
+// XGELM3.d(UNSOLVED_JOURNAL @6)  SEE XGFALC2 Same but unused ?
+
+@51209 = ~Les Paladins de Féérune
+
+We defeated all the members of the council of magicians in the main room, where we encountered Tasilla, the archmage. We learned that Gradak is his brother, and that all this was planned. He talked about the army of southerners and 3 magic relics. After his death, Grafalcon appeared here, he sent me and my group to find one of those relics on the Sword Coast, we must find it before Gradak does it.~ // @6
+
+// XGELM4.d(UNSOLVED_JOURNAL @8)
+
+@51210   = ~Les Paladins de Féérune
+
+So the war has started.. Sir Yarpen invaded first city.. Icewind Dale.. But Elminster told me that he is going after the legendary paladin I must find... So now my journey continues to the north of the Faerûn to stop the invasion and find the lost paladin!~ // @8
+
+// XGELVCP.d(UNSOLVED_JOURNAL @2)
+
+@51211 = ~Les Paladins de Féérune
+
+I entered the underground tunnels of the castle of Gradak. The conductor told me that he was hiding somewhere in the fortress.~ // @2
+
+// XGELWI.d(UNSOLVED_JOURNAL @21)   First entrie ar1000
+
+@51212 = ~Les Paladins de Féérune
+
+The Council of Mages sent an envoy to Alvin, asking for help. He explained to me why I was chosen to defend the ritual, during which a new order would be created to defend Faerûn. I also found out that they know about Irenicus and Imoen, the Council sends me 20,000 for Gaelin, and so I can return Imoen, I need to go to this place.~ // @21
+
+// XGELWI1.d(UNSOLVED_JOURNAL @6)
+
+@51213 = ~Les Paladins de Féérune
+
+On the way to Gradak Castle, I was stopped by the wizard Alvin. He told me that Gradak knows about my arrival and protects all approaches, so he suggested using magic to transfer me to the dungeons leading to the Gradak fortress and then everything will depend only on me. I need to find out what's really going on.~ // @6
+
+// XGFALC1.d(UNSOLVED_JOURNAL @6)
+
+@51214 = ~Les Paladins de Féérune
+
+I found Gradak's camp from which they attacked the cult. I saw Gradak talking with Elminster, they agreed on something. Grafalkon promised that he would find out what was happening, but he did not think that Elminster would be against us. My task is to get to the castle of Gradak, Grafalkon indicated its location on the map.~ // @6
+
+// XGFALC2.d(UNSOLVED_JOURNAL @6)  SEE XGELM3 Same but unused ?
+
+@51215 = ~Les Paladins de Féérune
+
+We defeated all the members of the council of magicians in the main room, where we encountered Archmage Tasilla. We learned that Gradak was his brother, and that all this had been planned in advance. He talked about the army of southerners and 3 magic relics. After his death, Grafalcon appeared here, he sent me and my group to find one of those relics on the Sword Coast. We must find her before Gradak does.~ // @6
+
+// XGgghc.d(UNSOLVED_JOURNAL @8)
+
+@51216 = ~Les Paladins de Féérune
+
+When we approached the entrance to the Council of Mages, where Alvin sent us, the guard stopped us and spoke of some changes in orders. It is necessary to destroy the group led by the offspring of Baal. Everything starts to get complicated somehow, I don't even know who is with us and who is against us. There is only one way to find out, we need to get to the founder of the Paladin cult of Faerûn.~ // @8
+
+// XGGOCH.d(UNSOLVED_JOURNAL @6)
+
+@51217 = ~Les Paladins de Féérune
+
+In the dungeon I met the guard of the passage. He said that Gradak did pass here, but in order to follow him, I will have to collect 6 stones of the guards of the passage. I will meet 6 guards in the dungeon and from each of them you need to get a protective stone.~ // @6
+
+// XGKELRO.d(UNSOLVED_JOURNAL @14)
+
+@51218 = ~Les Paladins de Féérune
+
+Kelrot, a former teacher and friend of Elvin, turned out to be serving Gradak and his task was to stop me. Nevertheless, he gave me advice to go to the Dark Forest in northern Faerûn. There I can find answers to some of my questions.~ // @14
+
+// XGOLDM.d(UNSOLVED_JOURNAL @6)
+
+@51219 = ~Les Paladins de Féérune
+
+The old magician was really peculiar, but he fulfilled his task and found the place where Qvarill abducted by Gradak is located.~ // @6
+
+// XGRANM.d(UNSOLVED_JOURNAL @16)
+
+@51220 = ~Les Paladins de Féérune
+
+The Ranger Rolard saw Gradak, but he only stayed there one night, and then set off north of the village. There are camps of orcs. Scouts from the village saw that among them were magicians in red robes, whom we had already met once. Maybe he is collecting a ritual and wants to combine these 3 relics, we should get there as soon as possible. Rolard marked us this place on the map.~ // @16
+
+// XGSCOUT.d(UNSOLVED_JOURNAL @6)
+
+@51221 = ~Les Paladins de Féérune
+
+Deep in the dungeon leading to Gradak's camp, I found a group of warriors looking for my body. I let their leader run to tell Gradak that I was on his heels.~ // @6
+
+// XGSLAI1.d(UNSOLVED_JOURNAL @6,UNSOLVED_JOURNAL @8)
+
+@51222   = ~Les Paladins de Féérune
+
+So now the legendary paladin Faerûna Slane has joined my party, and we have to save his friend if we want to defeat Sir Yarpen...~ // @6
+
+@51223   = ~Les Paladins de Féérune
+
+Slane told me that his friend was captured by Yuzhan warriors and that we should save him... so he gave me a map... I have to go there and find him...~ // @8
+
+// XGSLAIE.d(UNSOLVED_JOURNAL @9)
+
+@51224   = ~Les Paladins de Féérune
+
+Now I spoke with the legendary paladin Slane... He told me he could help me... But first he has to find his friend in New Brinlow... So when I'm ready, I have to get there and find him somewhere in town...~ // @9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,5 +14,6 @@ IF ~~ THEN BEGIN 2
   SAY @4
   IF ~~ THEN REPLY @5 DO ~AddexperienceParty(10000)
 RevealAreaOnMap("XG0055")
-EscapeArea()~ UNSOLVED_JOURNAL @6 EXIT
+AddJournalEntry(@51214,QUEST)
+EscapeArea()~ EXIT
 END

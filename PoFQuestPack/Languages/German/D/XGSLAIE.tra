@@ -6,7 +6,11 @@
 @6 = ~Es ist kein Problem, sagt mir, was ich tun soll, aber wir haben nicht viel Zeit dafür...~
 @7 = ~Ich würde gerne wissen, <Invalid Strref -1> was hier stehen soll.~
 @8 = ~So, Ihr habt gute Arbeit geleistet, Sohn von Gorion... Jetzt muss ich Targos verlassen... Und nach Brynnlaw gehen... Kommt zu mir, wenn Ihr bereit seid... Wir werden dort mit einem guten alten Freund von mir sprechen... Wir brauchen ihn, wenn wir Erfolg haben wollen.~ ~So, Ihr habt gute Arbeit geleistet, Tochter von Gorion... Jetzt muss ich Targos verlassen... Und nach Brynnlaw gehen... Kommt zu mir, wenn Ihr bereit seid... Wir werden dort mit einem guten alten Freund von mir sprechen... Wir brauchen ihn, wenn wir Erfolg haben wollen.~
+
+/*
 @9 = ~Paladine von Faerûn.
 
 Ich habe gerade mit dem legendären Paladin Slaine gesprochen... Er sagte mir, er könne mir helfen... Aber zuerst muss er seinen Freund in New Brynnlaw finden... Wenn ich also bereit bin, muss ich mich auf den Weg machen und ihn irgendwo in der Stadt finden...~
+*/
+
 @10 = ~Okay, ich werde gehen... Auf Wiedersehen, Slaine!~

@@ -11,9 +11,13 @@
 @11 = ~Ich bin <CHARNAME>. Ich hatte schon schwierigere Probleme zu lösen als dieses.~
 @12 = ~Ein göttliches Kind? Warum habt Ihr es nicht gleich gesagt? Ich werde hier warten, bis Ihr Marco tötet.~
 @13 = ~Marco, wer ist das?~
+
+/*
 @14 = ~Paladine von Faerûn.
 
 Ich bin bei den Verteidigern des Kultes von Faerûn angekommen. Der Elf Elijah, der Anführer der Verteidiger, wollte einen Kampf mit den Soldaten der Südländer beginnen. Ich half ihm, die Armee in die Schlacht zu führen, und meine Aufgabe war es, Marco, die rechte Hand des Anführers der Südländer, aufzuhalten. Und dann zu ihm zurückkehren.~
+*/
+
 @15 = ~Marco, diesen Namen werde ich mir merken. Krieger, macht Euch bereit, in die Schlacht zu ziehen!~
 @16 = ~Marco ist die rechte Hand des Anführers der Südländer, wenn Ihr ihn aufhaltet, wird der Kult von Faerûn frei sein.~
 @17 = ~Ich werde ihn finden und aufhalten! Krieger, folgt mir!~

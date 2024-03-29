@@ -448,8 +448,13 @@
 	
 PARAMÈTRES :  
 
-Deals 3d6 points of fire damage when a saving throw fails vs. spells
-Résistance au feu : Bonus de 50 %
+Capacités d'équipement : 
+- Résistance au feu : +50 %
+
+Capacités de charge : 
+- Inflige 3d6 points de dégâts de feu aux créatures dans un rayon de 4,5 mètres (jet de sauvegarde contre les sorts pour annuler) (25 charges, l'objet est détruit quand toutes les charges sont utilisées)
+
+Poids : 1
 
 Inutilisable par :
   Wizard Slayer
@@ -457,10 +462,15 @@ Inutilisable par :
 @441 = ~Ghoul's amulet~
 @442 = ~This amulet is made of a ghoul's tooth. It does not have a very outstanding appearance, but its properties may be useful.
 
-PARAMÈTRES   
+PARAMÈTRES : 
 
-25% chance to drain 1 level from the target (saving throw vs. spells to cancel)
-Immunity to non-magical weapons
+Capacités d'équipement : 
+- Immunité contre les armes non-magiques
+
+Capacités de charge : 
+- 26 % de chances de drainer 1 niveau à la cible de manière permanente (jet de sauvegarde contre les sorts pour annuler)
+
+Poids : 1
 
 Inutilisable par :
   Wizard Slayer
@@ -469,9 +479,17 @@ Inutilisable par :
 @443 = ~Gift of Gods~
 @444 = ~This extraordinarily powerful relic has sacrificed many lives. Very little is known about her, since no one who has seen her can tell anything about her anymore.
 					
-PARAMÈTRES   
+PARAMÈTRES : 
 
-Bonuses +2 to all basic characteristics (strength, dexterity, etc.)
+Capacités d'équipement : 
+- Force : +2
+- Dextérité : +2
+- Constitution : +2
+- Intelligence : +2
+- Sagesse : +2
+- Charisme : +2
+
+Poids : 1
 
 Inutilisable par :
   Wizard Slayer
@@ -480,10 +498,18 @@ Inutilisable par :
 @445 = ~Guardianship of Angel~
 @446 = ~This is a very rare artifact found in a forgotten temple dedicated to the god of heaven.
 
-PARAMÈTRES   
+PARAMÈTRES : 
 
-+1 to basic characteristics
-+10% resistance to fire, electricity, cold and poison
+Capacités d'équipement : 
+- Force : +1
+- Dextérité : +1
+- Constitution : +1
+- Intelligence : +1
+- Sagesse : +1
+- Charisme : +1
+- Résistance aux dégâts élémentaires : +10 %
+
+Poids : 1
 
 Inutilisable par :
   Wizard Slayer~
@@ -494,79 +520,97 @@ Inutilisable par :
 @450 = ~Battle Axe of Death~
 @451 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties. The blade of the battle axe is forged from such strong steel that it can cut the enemy with one blow.
 
-PARAMÈTRES :  
+PARAMÈTRES : 
 
-Deals additional 1d8 damage from the second side (slashing)
-50% chance to kill an opponent with one blow (saving throw vs. death/paralysis/poison with a -1 penalty)
+Capacités de combat : 
+- Inflige 1d8 points de dégâts tranchants à la cible
+- 51 % de chances de décapiter la cible (jet de sauvegarde à -1 contre la paralysie, la mort et les poisons pour annuler)
 
-TAC0: +3 bonus
-Dégâts : 1d8 +3
-Type de dégâts : tranchant
-Poids : 10
-Facteur de vitesse : 7
-Type de compétence : Hache
-Type : Arme à deux mains
-Nécessite : Strength 10
+TAC0 : +3
+Dégâts : 1d8 +3 (Tranchant)
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à 2 mains
+
+Nécessite : 
+- 10 en Force
+
+Poids : 10
 
 Inutilisable par :
   Mage
-  Druid
-  Cleric
-  Thief
-  Monk~
+  Druide
+  Clerc
+  Voleur
+  Moine~
 @452 = ~Wizard's Axe~
 @453 = ~Only spellcasters can use this special axe. It was created by a sorcerer in order to compensate for the physical weakness of those who use magic and cannot use heavy weapons. Of course, when creating this axe, it was not without a lot of magic.			
 			
-PARAMÈTRES :  
-			
-Bonus +2 to strength when wearing
-Haste 3 times a day
-Improved Invisibility 2 times a day
-30% chance to trigger a fireball when hitting a target
+PARAMÈTRES : 
 
-TAC0: +2 bonus
-Dégâts : 1d8 +2
-Type de dégâts : tranchant
-Poids : 10
-Facteur de vitesse : 5
-Type de compétence : Hache
-Type : Arme à une main
-Nécessite : Strength 10
+Capacités d'équipement : 
+- Force : +2
 
-Usable by:  
+Capacités de charge : 
+- Hâte (instantané) (3 fois par jour)
+- Invisibilité majeure (instantané) (2 fois par jour)
+
+Capacités de combat : 
+- 31 % de chances de lancer le sort Boule de feu sur les créatures dans la zone d'effet (comme un lanceur de sorts de niveau 3)
+
+TAC0 : +2
+Dégâts : 1d8 +2 (Tranchant)
+Facteur de vitesse : 5
+Type de compétence : Hache
+Type : Arme à 1 main
+
+Nécessite : 
+- 10 en Force
+
+Poids : 7
+
+Utilisable par :
 Mage~
 @454 = ~Goblin's Axe~
 @455 = ~It is known that goblins are not very good warriors, and even less skilled in blacksmithing. This is just one of the copies of the weapons that they are trying to make.
 
 PARAMÈTRES :
 
-Dégâts : -2 penalty
-Dextérité : -1 penalty
+Capacités d'équipement : 
+- Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+- Dextérité : -1
 
-TAC0 bonus: -
-Dégâts : 1d8
-Type de dégâts : tranchant
-Poids : 10
-Facteur de vitesse : 8
-Type de compétence : Hache
-Type : Arme à une main
-Nécessite : Strength 10~
+Capacités de combat : 
+- Inflige -2 points de dégâts tranchants à la cible
+
+Dégâts : 1d8 (Tranchant)
+Facteur de vitesse : 8
+Type de compétence : Hache
+Type : Arme à 1 main
+
+Nécessite : 
+- 10 en Force
+
+Poids : 10~
 @456 = ~Double Poleaxe~
 @457 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties.		
 
-PARAMÈTRES :  
+PARAMÈTRES :   
 
-Deals additional 1d8 damage from the second side (slashing)
-5% chance to kill an opponent with one blow (saving throw vs. death/paralysis/poison with a -2 penalty)
-			
-TAC0: +1 bonus
-Dégâts : 1d8
-Type de dégâts : tranchant
-Poids : 10
-Facteur de vitesse : 7
-Type de compétence : Hache
-Type : Arme à deux mains
-Nécessite : Strength 10
+Capacités de combat : 
+- Inflige 1d8 points de dégâts tranchants à la cible
+- 6 % de chances de décapiter la cible (jet de sauvegarde à -2 contre la paralysie, la mort et les poisons pour annuler)
+
+TAC0 : +1
+Dégâts : 1d8 (Tranchant)
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à 2 mains
+
+Nécessite : 
+- 10 en Force
+
+Poids : 10
 
 Inutilisable par :
   Mage
@@ -579,17 +623,21 @@ Inutilisable par :
 
 PARAMÈTRES :
 
-Deals additional 1d8 damage from the second side (slashing)
-10% chance to kill the enemy with one blow (saving throw vs. spells/breath)
+Capacités de combat : 
+- Inflige 1d8 points de dégâts tranchants à la cible
+- 11 % de chances de décapiter la cible (jet de sauvegarde contre les sorts ou contre les souffles pour annuler)
 
-TAC0: +2 bonus
-Dégâts : 1d8 +1
-Type de dégâts : tranchant
-Poids : 10
-Facteur de vitesse : 7
-Type de compétence : Hache
-Type : Arme à deux mains
-Nécessite : Strength 10
+Niveau d'enchantement : +1
+TAC0 : +2
+Dégâts : 1d8 +1 (Tranchant)
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à 2 mains
+
+Nécessite : 
+- 10 en Force
+
+Poids : 10
 
 Inutilisable par :  
   Mage
@@ -602,17 +650,21 @@ Inutilisable par :
 
 PARAMÈTRES :
 
-Deals additional 1d8 damage from the second side (slashing)
-20% chance to kill an opponent with one blow (saving throw vs. spells/breath)
+Capacités de combat : 
+- Inflige 1d8 points de dégâts tranchants à la cible
+- 21 % de chances de tuer instantanément la cible (jet de sauvegarde contre les sorts ou contre les souffles pour annuler)
 
-TAC0: +3 bonus
-Dégâts : 1d8 +2
-Type de dégâts : tranchant
-Poids : 10
-Facteur de vitesse : 7
-Type de compétence : Hache
-Type : Arme à deux mains
-Nécessite : Strength 10
+Niveau d'enchantement : +2
+TAC0 : +3
+Dégâts : 1d8 +2 (Tranchant)
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à 2 mains
+
+Nécessite : 
+- 10 en Force
+
+Poids : 10
 
 Inutilisable par :  
   Mage	
@@ -625,17 +677,21 @@ Inutilisable par :
 
 PARAMÈTRES :
 
-Deals additional 1d8 damage from the second side (slashing)
-30% chance to kill the enemy with one blow (saving throw vs. spells/breath)
+Capacités de combat : 
+- Inflige 1d8 points de dégâts tranchants à la cible
+- 31 % de chances de décapiter la cible (jet de sauvegarde contre les sorts ou contre les souffles pour annuler)
 
-TAC0: +4 bonus	
-Dégâts : 1d8 +3	
-Type de dégâts : tranchant	
-Poids : 10	
-Facteur de vitesse : 7	
-Type de compétence : Hache	
-Type : Arme à deux mains	
-Nécessite : Strength 10
+Niveau d'enchantement : +3
+TAC0 : +4
+Dégâts : 1d8 +3 (Tranchant)
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à 2 mains
+
+Nécessite : 
+- 10 en Force
+
+Poids : 10
 
 Inutilisable par :  
   Mage	
@@ -646,24 +702,36 @@ Inutilisable par :
 @464 = ~Health Belt~
 @465 = ~This belt is very valuable due to its ability to protect against poison. It is sewn from a snake skin and has a brownish-greenish color.
 
-PARAMÈTRES :  
+PARAMÈTRES : 
 
-Immunity to poison
-Classe d'armure : +2 bonus
-Bonus to the maximum of health points: +10~
+Capacités d'équipement : 
+- Classe d'armure : +2
+- Points de vie : +10
+- Résistance aux poisons : +100 %
+
+Poids : 2~
 @466 = ~Frost Belt~
 @467 = ~This belt was made from the skin of an ice giant killed by an unknown person. The giant's body was found in his lair about a week after that.		
 
-PARAMÈTRES :  
+PARAMÈTRES :   
 
-The wearer of the belt is immune to the cold
-Cold Cone 2 times a day~
+Capacités d'équipement : 
+- Résistance au froid : +100 %
+
+Capacités de charge : 
+- Cône de froid (instantané) (2 fois par jour)
+
+Poids : 2~
 @468 = ~The Gnomes' Belt~
 @469 = ~Gnomes, being small in size, are nevertheless famous for their courage and perseverance. This belt once belonged to a gnome named Grokhin, who commanded the city guards. There were legends about his unquestionable authority, and not only dwarves, but also representatives of other races obeyed him.
 
 PARAMÈTRES :  
 
-The owner of a belt assumes duties of the leader and receives +1 to charisma
+Capacités d'équipement : 
+- Niveau : +1
+- Charisme : +1
+
+Poids : 2
 
 Inutilisable par :  
   Mage	
@@ -680,11 +748,14 @@ Inutilisable par :
 
 PARAMÈTRES :  
 
-Fire resistance: +45% bonus
-Maximum health points: +5 bonus			
+Capacités d'équipement : 
+- Points de vie : +5
+- Résistance au feu : +45 %
+
+Poids : 4	
 
 Inutilisable par :
-  Good characters~
+  Personnage d'alignement bon~
 @475 = ~Boots of Hafling~
 @476 = ~Halflings are small, agile and human-like creatures. They live in grassy hilly landscapes in which they build their huts. For the most part, they are peaceful people, but in case of danger they gather together and can represent a serious force.
 
@@ -692,9 +763,12 @@ There is an opinion that halflings do not need shoes in principle, because their
 
 PARAMÈTRES :  
 
-Dextérité : +1 bonus
-Classe d'armure : +1 bonus
-Haste when wearing
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Dextérité : +1
+- Double la vitesse de déplacement et accorde une attaque supplémentaire par round
+
+Poids : 4
 
 Inutilisable par :
   Mage	
@@ -707,39 +781,58 @@ Inutilisable par :
 
 PARAMÈTRES :  
 
-Immunity to magical weapons
-Maximum health points: +5 bonus~
+Capacités d'équipement : 
+- Points de vie : +5
+- Immunité contre les armes magiques
+
+Poids : 4~
 @479 = ~Boots of Heaven~
 @480 = ~These boots are extremely rare. They are made of the plumage of the wings of an angel. The shoes are extremely light, and the owner immediately feels that he can move easily, quickly and at ease.			
 
-PARAMÈTRES :  
+PARAMÈTRES :
 
-Improved haste on the owner when wearing
-Cast "Haste" 3 times a day~
+Capacités d'équipement : 
+- Double la vitesse de déplacement et le nombre d'attaques par round
+
+Capacités de charge : 
+- Hâte (instantané) (3 fois par jour)
+
+Poids : 4~
 @481 = ~Snake Gloves~
 @482 = ~These gloves are made from the skin of a very rare and almost endangered kind of snake. These snakes are in great demand among alchemists, as they contain a fair amount of magical essence.
 
 PARAMÈTRES :  
 
-Cast "Breach" 3 times a day
-Poison resistance: +50%
-Acid resistance: +50%
-Classe d'armure : +1 bonus~
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Résistance à l'acide : +50 %
+- Résistance aux poisons : +50 %
+
+Capacités de charge : 
+- Brèche (instantané) (3 fois par jour)
+
+Poids : 2~
 @483 = ~Bracers of Health~
 @484 = ~This kind of bracers can only be created by elven blacksmiths, as they require ingredients available only to elves.
 
 PARAMÈTRES :  
 
-Intelligence : +1 bonus
-Maximum health points: +10 bonus
-Regeneration of 3 health points per second~
+Capacités d'équipement : 
+- Points de vie : +10
+- Régénère 3 points de vie par seconde
+- Intelligence : +1
+
+Poids : 2~
 @485 = ~Archmage's Bracers~
 @486 = ~Being in the hands, or more precisely, on the hands of a mage, these bracers turn out to be very useful and make life much easier for their owner. However, for those who have not succeeded in magic, this thing will be just a trinket.
 
-PARAMÈTRES :  
+PARAMÈTRES : 
 
-Two additional spell slots of the 4th, 5th and 6th levels
-Spell casting speed increases by 1
+Capacités d'équipement : 
+- Permet de mémoriser 2 sorts profanes supplémentaires de 4ème, 5ème et 6ème niveau
+- Temps d'incantation : -1
+
+Poids : 2
 
 Usable by:  
   Mage~
@@ -748,8 +841,11 @@ Usable by:
 
 PARAMÈTRES :  
 
-Classe d'armure : +1 bonus
-Resistance to electricity: +20%
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Résistance à l'électricité : +20 %
+
+Poids : 2
 
 Inutilisable par :
   Kensai~
@@ -4244,6 +4340,11 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 // AR0800 Novice Temple oublié
 // AR0300 Marchand de Memnon
 
+
+// gw_functions.tpa for item description
+
+@9001 = ~\([Oo]nly[ %tab%]+\)?[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 
 
 ////XGBOOKP.itm - BOOKPR.itm////

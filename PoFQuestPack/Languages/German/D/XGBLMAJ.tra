@@ -13,9 +13,11 @@
 @12 = ~Ja, natürlich. Der Eingang zum Gelände des Margul-Kults befindet sich in einem alten Tempel im nördlichen Teil der Stadt. Als Beweis meiner Dankbarkeit für Eure Hilfe schicke ich Euch Verstärkung von meinen besten Männern. Bringt mir seine Leiche! Viel Glück!~
 @13 = ~Danke, Großherzog~
 
+/*
 @14 = ~Paladine von Faerûn.
 
 Wie sich herausstellte, befindet sich Gradaks Freund Margul in seinem Versteck in Baldurs Tor, ich werde dort in einem Tempel im nördlichen Teil der Stadt einen geheimen Eingang finden. Ich muss seine Leiche mitnehmen.~
+*/
 
 @15 = ~Ausgezeichnet, Freunde, habt ihr diesen Paladin gefunden?~
 @16 = ~Wir haben ihn nicht gefunden, aber sein Freund Margul war da und hat mir gesagt, wohin Hradak verschwunden ist.~

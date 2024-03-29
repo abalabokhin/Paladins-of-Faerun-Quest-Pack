@@ -4063,6 +4063,12 @@ The wizard points his finger in the desired direction and projects a sphere of n
 @1500 = ~Lord Nasher's residence~
 
 
+// gw_functions.tpa for item description
+
+@9001 =~[Kk]ann[ %tab%]+[Nn]ur[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
+@9002 =~[Kk]ann[ %tab%]+[Nn]icht[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
+
+
 ////XGBOOKP.itm - BOOKPR.itm////
 @2000 = ~Grimoire~
 @2003 = ~Grimoire des interprètes~ ~Grimoire des d'Oghmatiques~

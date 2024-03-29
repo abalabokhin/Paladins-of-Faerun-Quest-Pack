@@ -17,6 +17,6 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN REPLY @9 DO ~Enemy()
-~ UNSOLVED_JOURNAL @8 EXIT
+  IF ~~ THEN REPLY @9 DO ~AddJournalEntry(@51216,QUEST)
+Enemy()~ EXIT
 END

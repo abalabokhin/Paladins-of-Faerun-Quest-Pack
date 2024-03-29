@@ -18,8 +18,8 @@ IF ~!PartyHasItem("XGAM")
 !PartyHasItem("XGAM5")~ THEN BEGIN 1
   SAY @3
   IF ~~ THEN REPLY @4 EXIT
-  IF ~~ THEN REPLY @6 DO ~Enemy()
-~ UNSOLVED_JOURNAL @5 EXIT
+  IF ~~ THEN REPLY @6 DO ~AddJournalEntry(@51206,QUEST)
+Enemy()~ EXIT
 END
 
 IF ~~ THEN BEGIN 2
@@ -32,8 +32,8 @@ TakePartyItem("XGAM4")
 TakePartyItem("XGAM5")
 AddexperienceParty(50000)
 PickUpItem("XGFLAI1")
-EscapeArea()
-~ UNSOLVED_JOURNAL @8 EXIT
-  IF ~~ THEN REPLY @10 DO ~Enemy()
-~ UNSOLVED_JOURNAL @5 EXIT
+AddJournalEntry(@51207,QUEST)
+EscapeArea()~ EXIT
+  IF ~~ THEN REPLY @10 DO ~AddJournalEntry(@51206,QUEST)
+Enemy()~ EXIT
 END
