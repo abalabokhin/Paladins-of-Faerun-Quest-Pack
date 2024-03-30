@@ -3700,7 +3700,7 @@ Not usable by:
 
 STATISTICS:
 
-50% chance to poison the target on hit (2 points of damage per round)
+50% chance to poison the target on hit (2 points of damage per round for 1 turn)
 
 THACO: +3 bonus
 Damage: 1d6 +3, +3 by poison
@@ -4220,6 +4220,12 @@ The wizard points his finger in the desired direction and projects a sphere of n
 // Map Note 
 
 @1500 = ~Lord Nasher's residence~
+
+
+// gw_functions.tpa for item description
+
+@9001 = ~\([Oo]nly[ %tab%]+\)?[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 
 
 ////XGBOOKP.itm - BOOKPR.itm////

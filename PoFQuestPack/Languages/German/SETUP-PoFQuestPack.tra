@@ -3567,7 +3567,7 @@ Kann nicht verwendet werden von:
 EIGENSCHAFTEN:
 
 Bei einem Treffer wird jeglicher Schaden um 3 reduziert,
-Chance von 50 % für 3 Runden, das Ziel mit einer schädlichen Infektionskrankheit zu infizieren.
+Chance von 50 %, das Ziel mit einer schädlichen Infektionskrankheit zu infizieren.
 
 ETW0: Bonus von +3
 Schaden: 1W6+3
@@ -4061,6 +4061,12 @@ The wizard points his finger in the desired direction and projects a sphere of n
 // Map Note 
 
 @1500 = ~Lord Nasher's residence~
+
+
+// gw_functions.tpa for item description
+
+@9001 =~[Kk]ann[ %tab%]+[Nn]ur[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
+@9002 =~[Kk]ann[ %tab%]+[Nn]icht[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
 
 
 ////XGBOOKP.itm - BOOKPR.itm////

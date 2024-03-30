@@ -61,8 +61,9 @@ END
 
 IF ~~ THEN BEGIN 11
   SAY @22
-  IF ~~ THEN REPLY @24 DO ~TakePartyItem("XGWH")
-~ UNSOLVED_JOURNAL @23 GOTO 20
+  IF ~~ THEN REPLY @24 DO ~TakePartyItem("XGWH") 
+AddJournalEntry(@51203,QUEST)
+~ GOTO 20
 END
 
 IF ~~ THEN BEGIN 12

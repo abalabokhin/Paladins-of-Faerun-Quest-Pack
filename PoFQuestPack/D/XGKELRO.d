@@ -34,6 +34,6 @@ IF ~~ THEN BEGIN 6
   SAY @13
   IF ~~ THEN REPLY @15 DO ~RevealAreaOnMap("XG0026")
 AddexperienceParty(1000)
-Enemy()
-~ UNSOLVED_JOURNAL @14 EXIT
+AddJournalEntry(@51218,QUEST)
+Enemy()~ EXIT
 END

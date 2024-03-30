@@ -13,6 +13,6 @@ END
 IF ~~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN REPLY @7 DO ~AddexperienceParty(20000)
-EscapeArea()
-~ UNSOLVED_JOURNAL @6 EXIT
+AddJournalEntry(@51215,QUEST)
+EscapeArea()~ EXIT
 END

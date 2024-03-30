@@ -50,9 +50,10 @@ IF ~~ THEN BEGIN 9
   SAY @20
   IF ~~ THEN REPLY @22 DO ~RevealAreaOnMap("XG0053")
 GiveItemCreate("MISC07",Player1,5000,0,0)
+AddJournalEntry(@51212,QUEST)
 EscapeArea()
 //TextScreen("SCENPMOD")
-~ UNSOLVED_JOURNAL @21 EXIT
+~ EXIT
 END
 
 IF ~~ THEN BEGIN 10
@@ -84,7 +85,8 @@ IF ~~ THEN BEGIN 15
   SAY @20
   IF ~~ THEN REPLY @22 DO ~RevealAreaOnMap("XG0053")
 GiveItemCreate("MISC07",Player1,5000,0,0)
+AddJournalEntry(@51212,QUEST)
 EscapeArea()
 //TextScreen("SCENPMOD")
-~ UNSOLVED_JOURNAL @21 EXIT
+~ EXIT
 END

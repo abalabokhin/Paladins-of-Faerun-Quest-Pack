@@ -18,9 +18,13 @@
 @18 = ~ I know what bothers you, Imoen and Irenicus. But it has to wait. You must go to this place and defend the ritual. ~
 @19 = ~ How do you know that? Do you know who this Irenicus is? And where is Imoyen? ~
 @20 = ~ I cannot tell you anything specific, but I am authorized to assist you. I know that someone Gaelan contacted you and offered you help for 20,000. I think you should accept his offer. This gave you advice, provided that you accept this task. ~
+
+/*
 @21 = ~ Paladins of Féérune.
 
 The Council of Mages sent an envoy to Elwin, asking for help. He explained to me why I was chosen to defend the ritual, during which a new order would be created to defend Féérune. I also found out that they know about Irenicus and Imoen, the Council sends me 20,000 for Gaelin, and so I can return Imoen, I need to go to this place. ~
+*/
+
 @22 = ~ Obviously, I have to go there and personally thank the advice. Thanks Elwin, I hope we meet again. Bye. ~
 @23 = ~ Of course, I expected this, we know about it, and I am ready to help you if you help us. ~
 @24 = ~ Why did you choose me? ~

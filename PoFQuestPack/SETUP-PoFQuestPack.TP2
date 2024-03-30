@@ -120,6 +120,7 @@ INCLUDE ~PoFQuestPack/Lib/Area-macros.tpa~
 INCLUDE ~PoFQuestPack/Lib/Bam-macros.tpa~
 INCLUDE ~PoFQuestPack/Lib/Creature-macros.tpa~
 INCLUDE ~PoFQuestPack/Lib/Item-macros.tpa~
+INCLUDE ~PoFQuestPack/lib/gw_functions.tpa~
 
 COPY ~PoFQuestPack/bam~   ~override~
 
@@ -238,6 +239,12 @@ END
 // Trap script for XG0152.are
 
 COPY ~PoFQuestPack/OTHER/BCS.TrapforXG0152~   ~override~
+
+
+// Modify GORGOLI.cre to XGGOICE
+
+COPY_EXISTING ~GOLICE01.cre~   ~override/XGGOICE.cre~
+	WRITE_SHORT 0x14 ~2500~ // XP value
 
 
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
@@ -3770,7 +3777,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0059.ARE~         ~override/XG0059.ARE
   SAY 0x2270 @410 
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0060.ARE~         ~override/XG0060.ARE~
-LPF fj_are_structure
+	LPF fj_are_structure
 		INT_VAR
 		fj_type			= 1    // Info point
 		fj_box_left		= 530
@@ -3795,7 +3802,7 @@ LPF fj_are_structure
 		fj_structure_type	= region
 		fj_name				= info01
 		END
-LPF fj_are_structure
+	LPF fj_are_structure
 		INT_VAR
 		fj_type			= 1    // Info point
 		fj_box_left		= 1072
@@ -4532,19 +4539,19 @@ COPY ~weidu_external/PoFQuestPack/Items/XGAM.ITM~			~override/XGAM.ITM~
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAMUL1.ITM~			~override/XGAMUL1.ITM~
   SAY NAME2 @439
-  SAY DESC @440
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@440" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAMUL2.ITM~			~override/XGAMUL2.ITM~
   SAY NAME2 @441
-  SAY DESC @442
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@442" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAMUL3.ITM~			~override/XGAMUL3.ITM~
   SAY NAME2 @443
-  SAY DESC @444
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@444" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAMUL4.ITM~			~override/XGAMUL4.ITM~
   SAY NAME2 @445
-  SAY DESC @446
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@446" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGartk1.ITM~			~override/XGartk1.ITM~
   SAY NAME1 @447
@@ -4566,11 +4573,11 @@ COPY ~weidu_external/PoFQuestPack/Items/XGART.ITM~			~override/XGART.ITM~
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE01.ITM~			~override/XGAXE01.ITM~
   SAY NAME2 @450
-  SAY DESC @451
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@451" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE02.ITM~			~override/XGAXE02.ITM~
   SAY NAME2 @452
-  SAY DESC @453
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@453" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE03.ITM~			~override/XGAXE03.ITM~
   SAY NAME2 @454
@@ -4578,19 +4585,19 @@ COPY ~weidu_external/PoFQuestPack/Items/XGAXE03.ITM~			~override/XGAXE03.ITM~
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE04.ITM~			~override/XGAXE04.ITM~
   SAY NAME2 @456
-  SAY DESC @457
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@457" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE05.ITM~			~override/XGAXE05.ITM~
   SAY NAME2 @458
-  SAY DESC @459
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@459" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE06.ITM~			~override/XGAXE06.ITM~
   SAY NAME2 @460
-  SAY DESC @461
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@461" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE07.ITM~			~override/XGAXE07.ITM~
-  SAY NAME2 @462 
-  SAY DESC @463
+  SAY NAME2 @462
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@463" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBELT1.ITM~			~override/XGBELT1.ITM~
   SAY NAME2 @464
@@ -4602,7 +4609,7 @@ COPY ~weidu_external/PoFQuestPack/Items/XGBELT2.ITM~			~override/XGBELT2.ITM~
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBELT3.ITM~			~override/XGBELT3.ITM~
   SAY NAME2 @468
-  SAY DESC @469
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@469" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBGSD.ITM~			~override/XGBGSD.ITM~
   SAY NAME1 @470
@@ -4620,11 +4627,11 @@ COPY ~weidu_external/PoFQuestPack/Items/XGBOOKP.ITM~			~override/XGBOOKP.ITM~ //
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBOOT1.ITM~			~override/XGBOOT1.ITM~
   SAY NAME2 @473
-  SAY DESC @474
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@474" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBOOT2.ITM~			~override/XGBOOT2.ITM~
   SAY NAME2 @475
-  SAY DESC @476
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@476" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBOOT3.ITM~			~override/XGBOOT3.ITM~
   SAY NAME2 @477 
@@ -4643,66 +4650,66 @@ COPY ~weidu_external/PoFQuestPack/Items/XGBRAC2.ITM~			~override/XGBRAC2.ITM~
   SAY DESC @484 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBRAC3.ITM~			~override/XGBRAC3.ITM~
-  SAY NAME2 @485 
-  SAY DESC @486 
+  SAY NAME2 @485
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@486" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBRAC4.ITM~			~override/XGBRAC4.ITM~
   SAY NAME2 @487 
-  SAY DESC @488 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@488" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO1.ITM~			~override/XGBSWO1.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @489 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @490 
+  SAY NAME1 @489
+  SAY NAME2 @489
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@490" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO2.ITM~			~override/XGBSWO2.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @491 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @492 
+  SAY NAME1 @489
+  SAY NAME2 @491
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@492" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO3.ITM~			~override/XGBSWO3.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @493 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @494 
+  SAY NAME1 @489
+  SAY NAME2 @493
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@494" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO4.ITM~			~override/XGBSWO4.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @495 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @496 
+  SAY NAME1 @489
+  SAY NAME2 @495
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@496" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO5.ITM~			~override/XGBSWO5.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @497 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @498 
+  SAY NAME1 @489
+  SAY NAME2 @497
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@498" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO6.ITM~			~override/XGBSWO6.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @499 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @500 
+  SAY NAME1 @489
+  SAY NAME2 @499
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@500" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO7.ITM~			~override/XGBSWO7.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @501 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @502 
+  SAY NAME1 @489
+  SAY NAME2 @501
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@502" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO8.ITM~			~override/XGBSWO8.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @503 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @504 
+  SAY NAME1 @489
+  SAY NAME2 @503
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@504" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO9.ITM~			~override/XGBSWO9.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @505 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @506 
+  SAY NAME1 @489
+  SAY NAME2 @505
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@506" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGCBOW1.ITM~			~override/XGCBOW1.ITM~
   SAY NAME2 @507 
@@ -6064,6 +6071,9 @@ ADD_JOURNAL TITLE (@51000) @51001 @51002 @51003
  
 // Food. Les rations.
 ADD_JOURNAL TITLE (@51100) @51101 @51102 @51103 @51104
+ 
+// Paladins of Faerûn. Les Paladins de Féérune
+ADD_JOURNAL TITLE (@51200) @51201 @51202 @51203 @51204 @51205 @51206 @51207 @51208 @51209 @51210 @51211 @51212 @51213 @51214 @51215 @51216 @51217 @51218 @51219 @51220 @51221 @51222 @51223 @51224
 
 
 //////////////////////////////////
@@ -6358,7 +6368,11 @@ APPEND ~MASTAREA.2da~ ~XG0680 value~ UNLESS ~XG0680~ // Forêt de Siluvanede // 
 
 // LAF HANDLE_AUDIO
 
-LAF HANDLE_AUDIO STR_VAR audio_path = ~PoFQuestPack/Audio~ oggdec_path = ~PoFQuestPack/tools~ END
+	LAF HANDLE_AUDIO 
+		STR_VAR 
+		audio_path = ~PoFQuestPack/Audio~ 
+		oggdec_path = ~PoFQuestPack/tools~ 
+	END
 
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
@@ -6371,7 +6385,6 @@ COPY ~PoFQuestPack/TIS.EE~		~override~
 
   // *** Install pvrz-based tilesets without the danger of overwriting pvrz files from other mods or the game itself. ***
 
-COPY ~PoFQuestPack/PVRZ.EE~		~override~
   INCLUDE ~PoFQuestPack/lib/a7_pvrz_tis.tpa~
   // Installing all TIS files from the specified folder
   ACTION_BASH_FOR ~%MOD_FOLDER%/TIS.EE~ ~^.+\.tis$~ BEGIN
@@ -6397,36 +6410,26 @@ COPY ~PoFQuestPack/PVRZ.EE~		~override~
       FAIL ~Could not install "%BASH_FOR_FILESPEC%"!~
     END
   END
-  
-/*  
-
-En attente de voir s'il est possible de convertir pour vanilla et avoir un seul set de fichier Tis
-
-
-END ELSE BEGIN
-  INCLUDE ~PoFQuestPack/lib/a7_tools.tpa~
-  // installing TIS for vanila
-  ACTION_BASH_FOR  ~%MOD_FOLDER%/TIS.EE~ ~.*\.TIS$~ BEGIN
-    LAF HANDLE_TILE2EE
-      INT_VAR
-        silent = 0  // show feedback
-      STR_VAR
-        input_path = EVAL ~%BASH_FOR_FILESPEC%~
-      RET
-        num_converted
-    END
-    ACTION_IF (num_converted != 1) BEGIN
-      FAIL ~Error converting %file%~
-    END
-  END
-END
-*/
 
 END
 
 ACTION_IF (GAME_IS ~tob bgt~) BEGIN
-
+	
+	LAF HANDLE_TILESETS
+		STR_VAR
+		tiz_path = ~PoFQuestPack/OLD.tiz~
+		tisunpack_path = ~PoFQuestPack/tools~
+	END	 
 /*
+AT_INTERACTIVE_EXIT ~PoFQuestPack\OLD.PoFQuestPack_Inst.bat~
+
+AT_INTERACTIVE_UNINSTALL ~PoFQuestPack\OLD.PoFQuestPack_Uninst.bat~
+*/
+END
+/*
+
+En attente de voir s'il est possible de convertir pour vanilla et avoir un seul set de fichier Tis
+
   // *** Installation of TIS and MOS files (Light Version) ***
 
 INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
@@ -6445,14 +6448,3 @@ INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
     END
   END
 */
-
-
-// Should not be needed with  tis convertion
-
-
-AT_INTERACTIVE_EXIT ~PoFQuestPack\OLD.PoFQuestPack_Inst.bat~
-
-AT_INTERACTIVE_UNINSTALL ~PoFQuestPack\OLD.PoFQuestPack_Uninst.bat~
-
-
-END

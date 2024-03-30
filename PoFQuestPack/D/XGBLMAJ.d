@@ -33,13 +33,13 @@ END
 IF ~~ THEN BEGIN 6
   SAY @12
   IF ~~ THEN REPLY @13 DO ~SetGlobal("s#XGBLMAJ","GLOBAL",1)
-AddJournalEntry(@50803,QUEST)
+AddJournalEntry(@51204,QUEST)
 ActionOverride(Player2,LeaveAreaLUA("XG0420","",[463.410],8))
 ActionOverride(Player1,LeaveAreaLUA("XG0420","",[440.438],8))
 ActionOverride(Player3,LeaveAreaLUA("XG0420","",[508.462],8))
 ActionOverride(Player4,LeaveAreaLUA("XG0420","",[499.492],8))
 ActionOverride(Player5,LeaveAreaLUA("XG0420","",[569.473],8))
-ActionOverride(Player6,LeaveAreaLUA("XG0420","",[614.435],8))~ UNSOLVED_JOURNAL @14 EXIT
+ActionOverride(Player6,LeaveAreaLUA("XG0420","",[614.435],8))~ EXIT
 END
 
 IF ~Global("s#XGBLMAJ","GLOBAL",1)

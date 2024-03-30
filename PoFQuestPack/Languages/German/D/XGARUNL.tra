@@ -22,9 +22,13 @@ Elf, der Anführer der Waldstadt, hat mich um Hilfe gebeten. Eine gewisse Zauberi
 @20 = ~Wie es scheint, hatte die Zauberin eine  magische Kugel, einen sehr mächtigen Gegenstand... Diese Magier haben wahrscheinlich nach einer Kugel gesucht.~
 @21 = ~Ich verstehe nur nicht, warum einer von ihnen sagte, dass sie von Elminster, meinem Freund, hergeschickt wurden.~
 @22 = ~Das stimmt nicht ganz, sie wurden angeblich von jemandem aus dem Rat der Magier geschickt. Ich weiß jedoch nicht, wer er ist. Aber bevor er starb, erzählte uns der Magier noch etwas viel Wichtigeres. Während des Angriffs haben sie einen Magier gefangen genommen, es stellte sich heraus, dass er Euer Freund war, und ich weiß, wo er ist. Ich werde diesen Ort auf Eurer Karte markieren!~
+
+/*
 @23 = ~Paladine von Faerûn.
 
 Arundel erzählte mir, dass Alvin während des Angriffs gefangen genommen wurde, und zeigte mir den Ort, an dem er sich befindet.~
+*/
+
 @24 = ~Danke für alles, vielleicht sehen wir Euch irgendwann wieder.~
 @25 = ~Wenn Ihr nichts sagt, warum sollte ich Euch helfen? Auf Wiedersehen.~
 @26 = ~Bringt mir den Beweis, dass die Zauberin tot ist!~

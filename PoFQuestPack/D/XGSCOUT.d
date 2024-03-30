@@ -12,6 +12,6 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN REPLY @7 DO ~EscapeArea()
-~ UNSOLVED_JOURNAL @6 EXIT
+  IF ~~ THEN REPLY @7 DO ~AddJournalEntry(@51221,QUEST)
+EscapeArea()~ EXIT
 END

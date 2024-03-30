@@ -3399,7 +3399,7 @@ THACO:  +2 бонус
 ПАРАМЕТРЫ:  
 			
 При попадании все повреждения сокращаются на 3, 
-50%-шанс на 3 раунда заразить цель инфекционным заболеванием, наносящим урон.						
+50%-шанс на заразить цель инфекционным заболеванием, наносящим урон.						
 			
 THACO:  +3 бонус	
 Урон:  1d6+3	
@@ -3890,6 +3890,12 @@ The wizard points his finger in the desired direction and projects a sphere of n
 // Map Note 
 
 @1500 = ~Lord Nasher's residence~
+
+
+// gw_functions.tpa for item description
+
+@9001 = ~Используется[ %tab%]*:~
+@9002 = ~Не[ %tab%]+используется[ %tab%]*:~
 
 
 ////XGBOOKP.itm - BOOKPR.itm////

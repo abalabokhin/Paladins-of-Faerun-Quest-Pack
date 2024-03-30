@@ -18,9 +18,13 @@
 @18 = ~Ich weiß, was euch beunruhigt, Imoen und Irenicus. Aber es muss warten. Ihr müsst zu diesem Ort gehen und das Ritual verteidigen.~
 @19 = ~Woher weißt du das? Weißt du, wer dieser Irenicus ist? Und wo ist Imoyen?~
 @20 = ~Ich kann dir nichts Genaues sagen, aber ich bin befugt, dir zu helfen. Ich weiß, dass ein gewisser Gaelan dich kontaktiert hat und dir für 20.000 Euro Hilfe angeboten hat. Ich denke, du solltest sein Angebot annehmen. Dies ist ein guter Ratschlag, vorausgesetzt, Ihr nehmt diese Aufgabe an.~
+
+/*
 @21 = ~Paladine von Faerun.
 
 Der Rat der Magier schickte einen Abgesandten zu Alvin, der ihn um Hilfe bat. Er erklärte mir, warum ich auserwählt wurde, das Ritual zu verteidigen, bei dem ein neuer Orden zur Verteidigung Faeruns gegründet werden sollte. Ich habe auch erfahren, dass sie über Irenicus und Imoen Bescheid wissen, der Rat schickt mir 20.000 für Gaelin, und damit ich Imoen zurückbringen kann, muss ich an diesen Ort gehen.~
+*/
+
 @22 = ~Natürlich muss ich dorthin gehen und mich persönlich bei dem Rat bedanken. Danke Alvin, ich hoffe wir sehen uns wieder. Bye.~
 @23 = ~Natürlich habe ich das erwartet, wir wissen davon, und ich bin bereit, dir zu helfen, wenn du uns hilfst.~
 @24 = ~Warum haben Sie mich gewählt?~

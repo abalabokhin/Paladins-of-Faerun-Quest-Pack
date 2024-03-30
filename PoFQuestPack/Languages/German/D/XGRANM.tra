@@ -13,9 +13,13 @@
 @13 = ~Ich bin nicht daran interessiert, mich nach jedem Fremden zu erkundigen, wenn er unser Dorf sowieso verlässt.~
 @14 = ~Dieser Fremde, von dem wir sprechen, hat eine Armee von Südländern um sich geschart, fast den gesamten Kult der Paladine von Faerûn vernichtet, viele Menschen getötet und sogar zwei Städte von Faerûn angegriffen, Niewinter und Targos. Unsere Aufgabe ist es, ihn zu finden und aufzuhalten, also wenn Ihr etwas wisst, sagt es uns!~
 @15 = ~Mein Gott, wir haben ihn wie einen ehrwürdigen Paladin behandelt! Vor drei Tagen habe ich Späher nordöstlich von unserem Dorf ausgesandt. Dort gibt es Lager von Orks. Es gab nie ein großes Problem mit ihnen. Und jetzt hat einer meiner Späher Menschen unter ihnen gesehen, wahrscheinlich Magier. Das ist ziemlich ungewöhnlich ...~
+
+/*
 @16 = ~Paladine von Faerûn.
 
 Der Waldläufer Rolard hat Gradak gesehen, aber er blieb nur eine Nacht hier und brach dann nördlich des Dorfes auf. Dort gibt es Lager von Orks. Späher aus dem Dorf sahen, dass unter ihnen Magier in roten Roben waren, denen wir schon einmal begegnet waren. Vielleicht führt er ein Ritual durch und will diese 3 Relikte kombinieren, wir sollten so schnell wie möglich dorthin gelangen. Rolard hat uns diesen Ort auf der Karte markiert.~
+*/
+
 @17 = ~Gradak lässt Euch grüßen!~
 @18 = ~Das ist er! Er hat schon einmal diese Magier in roten Roben zu mir geschickt. Markiert mir diesen Ort auf der Karte. Wir werden uns sofort dorthin begeben.~
 @19 = ~Kommt Ihr wegen einer Information zurück?~

@@ -61,13 +61,13 @@ END
 IF ~~ THEN BEGIN 9
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
+AddJournalEntry(@51220,QUEST)
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
 ActionOverride("XGASSF",Attack("XGRANM"))
 ActionOverride("XGASSF",Kill("XGRANM"))
-Wait(3)
-~ UNSOLVED_JOURNAL @16 EXIT
+Wait(3)~ EXIT
 END
 
 IF ~~ THEN BEGIN 10
@@ -83,13 +83,13 @@ END
 IF ~~ THEN BEGIN 12
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
+AddJournalEntry(@51220,QUEST)
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
 ActionOverride("XGASSF",Attack("XGRANM"))
 ActionOverride("XGASSF",Kill("XGRANM"))
-Wait(3)
-~ UNSOLVED_JOURNAL @16 EXIT
+Wait(3)~ EXIT
 END
 
 IF ~~ THEN BEGIN 13
@@ -105,13 +105,13 @@ END
 IF ~~ THEN BEGIN 15
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
+AddJournalEntry(@51220,QUEST)
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
 ActionOverride("XGASSF",Attack("XGRANM"))
 ActionOverride("XGASSF",Kill("XGRANM"))
-Wait(3)
-~ UNSOLVED_JOURNAL @16 EXIT
+Wait(3)~ EXIT
 END
 
 IF ~~ THEN BEGIN 16
@@ -127,13 +127,13 @@ END
 IF ~~ THEN BEGIN 18
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
+AddJournalEntry(@51220,QUEST)
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
 ActionOverride("XGASSF",Attack("XGRANM"))
 ActionOverride("XGASSF",Kill("XGRANM"))
-Wait(3)
-~ UNSOLVED_JOURNAL @16 EXIT
+Wait(3)~ EXIT
 END
 
 IF ~~ THEN BEGIN 19
@@ -149,13 +149,13 @@ END
 IF ~~ THEN BEGIN 21
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
+AddJournalEntry(@51220,QUEST)
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
 ActionOverride("XGASSF",Attack("XGRANM"))
 ActionOverride("XGASSF",Kill("XGRANM"))
-Wait(3)
-~ UNSOLVED_JOURNAL @16 EXIT
+Wait(3)~ EXIT
 END
 
 IF ~NumTimesTalkedTo(1)~ THEN BEGIN 22
@@ -176,11 +176,11 @@ END
 IF ~~ THEN BEGIN 25
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
+AddJournalEntry(@51220,QUEST)
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
 ActionOverride("XGASSF",Attack("XGRANM"))
 ActionOverride("XGASSF",Kill("XGRANM"))
-Wait(3)
-~ UNSOLVED_JOURNAL @16 EXIT
+Wait(3)~ EXIT
 END

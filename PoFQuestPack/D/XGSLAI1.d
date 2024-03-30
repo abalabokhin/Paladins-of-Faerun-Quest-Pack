@@ -13,10 +13,10 @@ END
 IF ~~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN REPLY @7 DO ~RevealAreaOnMap("XG0028")
+AddJournalEntry(@51222,QUEST)
 AddexperienceParty(30000)
-JoinParty()
-~ UNSOLVED_JOURNAL @6 EXIT
+JoinParty()~ EXIT
   IF ~~ THEN REPLY @9 DO ~RevealAreaOnMap("XG0028")
-AddexperienceParty(30000)
-~ UNSOLVED_JOURNAL @8 EXIT
+AddJournalEntry(@51223,QUEST)
+AddexperienceParty(30000)~ EXIT
 END

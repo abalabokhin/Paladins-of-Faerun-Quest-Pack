@@ -11,9 +11,13 @@
 @11 = ~ I'm <CHARNAME>. I had to solve more complex problems than this. ~
 @12 = ~ Divine child? Why didn't you say it right away? I will wait here until you kill Marco. ~
 @13 = ~ Marco, who is he? ~
+
+/*
 @14 = ~ Paladins of Faerûn.
 
 I arrived at the defenders of the Faerûn cult. Elf Elijah the leader of the defenders wanted to start a battle with the soldiers of the southerners. I helped him lead the army into battle and my task was to stop Marco, the right hand of the leader of the southerners. And then get back to it. ~
+*/
+
 @15 = ~ Marco, I will remember that name. Warriors get ready to go to battle! ~
 @16 = ~ Marco the right hand of the southerners leader, if you stop him, the cult of Faerûn will be free. ~
 @17 = ~ I will find him and stop him! Warriors follow me! ~
